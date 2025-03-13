@@ -1,0 +1,57 @@
+#perks {
+  display: flex;
+  justify-content: center;
+  max-width: 90rem;
+  margin-inline: auto;
+  padding-block: 6rem 5rem;
+  text-align: center;
+  font: var(--subtitle);
+
+  & > div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 75rem;
+    height: 25rem;
+
+    & p strong {
+      color: var(--blue-light);
+    }
+
+    & span {
+      position: absolute;
+      aspect-ratio: 1/1;
+
+      &.img-crystal-ball {
+        background-image: url(../assets/icons/mystery-crystal-ball.svg);
+        width: 4.5rem;
+        height: 4.5rem;
+        right: 0;
+        bottom: 20%;
+        background-size: 100% 100%;
+        transform: rotate(-30deg);
+      }
+
+      &.img-book {
+        background: url(../assets/icons/book-image.svg) no-repeat;
+        width: 5.5rem;
+        height: 5.5rem;
+        top: 15%;
+        transform: rotate(30deg);
+
+      }
+
+      &.img-ouija {
+        background-image: url(../assets/icons/mystery-ouija-planchette.svg);
+        background-size: 100% 100%;
+        width: 5rem;
+        height: 5rem;
+        left: 2rem;
+        bottom: 15%;
+        transform: rotate(100deg);
+      }
+    }
+  }
+}

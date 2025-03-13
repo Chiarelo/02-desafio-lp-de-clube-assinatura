@@ -80,4 +80,8 @@ a {
     --title-sm: 700 2rem var(--font-family);
     --title-xs: 700 1rem var(--font-family);
   }
+
+  body {
+    font: var(--body-sm);
+  }
 }
