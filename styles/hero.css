@@ -1,0 +1,33 @@
+#hero {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/backgrounds/hero-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 59.25rem;
+  max-width: 90rem;
+  margin-inline: auto;
+  text-align: center;
+
+  padding-inline: 10rem;
+
+  & nav {
+    display: flex;
+    padding-top: 3.5rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  & .title {
+    align-self: center;
+    max-width: 41rem;
+    text-align: center;
+    padding-top: 10.25rem;
+
+    & p {
+      margin-top: 2rem;
+    }
+  }
+}
