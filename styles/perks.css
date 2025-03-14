@@ -1,11 +1,11 @@
-#perks {
-  display: flex;
-  justify-content: center;
-  max-width: 90rem;
-  margin-inline: auto;
+#desktop-perks {
+  display: block;
+  margin: 0 auto;
   padding-block: 6rem 5rem;
   text-align: center;
   font: var(--subtitle);
+  max-width: 75rem;
+
 
   & > div {
     display: flex;
@@ -40,7 +40,6 @@
         height: 5.5rem;
         top: 15%;
         transform: rotate(30deg);
-
       }
 
       &.img-ouija {
@@ -51,6 +50,70 @@
         left: 2rem;
         bottom: 15%;
         transform: rotate(100deg);
+      }
+    }
+  }
+}
+
+#mobile-perks {
+  display: none;
+}
+
+@media (width <= 48em) {
+  #desktop-perks {
+    display: none;
+  }
+
+  #mobile-perks {
+    display: block;
+    width: 23.4375rem;
+    margin: 0 auto;
+
+    & > div {
+      position: relative;
+      padding-inline: 1.25rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 15.6875rem;
+      width: 23.4375rem;
+
+      font: var(--body-md);
+
+      & span {
+        position: absolute;
+        aspect-ratio: 1/1;
+
+        &.img-crystal-ball {
+          background-image: url(../assets/icons/mystery-crystal-ball.svg);
+          width: 2.5rem;
+          height: 2.5rem;
+          right: 2.25rem;
+          bottom: 2rem;
+          background-size: 100% 100%;
+          transform: rotate(20deg);
+        }
+
+        &.img-book {
+          background: url(../assets/icons/book-image.svg) no-repeat;
+          width: 2.5rem;
+          height: 2.5rem;
+          top: 1.75rem;
+          right: 4.625rem;
+          transform: rotate(30deg);
+          background-size: 100%;
+        }
+
+        &.img-ouija {
+          background-image: url(../assets/icons/mystery-ouija-planchette.svg);
+          background-size: 100% 100%;
+          width: 2rem;
+          height: 2rem;
+          left: .875rem;
+          bottom: 3.5rem;
+          transform: rotate(-20deg);
+        }
       }
     }
   }

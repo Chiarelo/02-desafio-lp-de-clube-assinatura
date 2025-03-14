@@ -35,9 +35,9 @@
   --title-xs: 700 1rem var(--font-family);
   --subtitle: 500 2rem/200% var(--font-family);
   --body-lg: 400 1.25rem/140% var(--font-family);
-  --body-md: 400 1rem 140% var(--font-family);
-  --body-sm: 400 0.875rem 140% var(--font-family);
-  --body-xs: 400 0.75rem 140% var(--font-family);
+  --body-md: 400 1rem/140% var(--font-family);
+  --body-sm: 400 0.875rem/140% var(--font-family);
+  --body-xs: 400 0.75rem/140% var(--font-family);
   --button: 700 0.875rem var(--font-family);
   --link: 500 0.875rem var(--font-family);
   --tag: 700 0.625rem uppercase 5% var(--font-family);
@@ -73,6 +73,10 @@ a {
   text-decoration: none;
 }
 
+.mobile-only {
+  display: none;
+}
+
 @media (width <= 48em) {
   :root {
     --title-lg: 700 1.75rem var(--font-family);
@@ -83,5 +87,9 @@ a {
 
   body {
     font: var(--body-sm);
+  }
+
+  .desktop-only {
+    display: none;
   }
 }
