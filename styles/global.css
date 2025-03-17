@@ -60,11 +60,11 @@ h1 {
 }
 
 h2 {
-  font: var(--body-md);
+  font: var(--title-md);
 }
 
 h3 {
-  font: var(--body-sm);
+  font: var(--title-sm);
 }
 
 a {
