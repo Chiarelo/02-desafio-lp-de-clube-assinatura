@@ -2,7 +2,9 @@
   padding: .75rem 1.25rem;
   font: var(--button);
   color: var(--text-title);
+  border: none;
   border-radius: .5rem;
+  cursor: pointer;
 }
 
 .btn-primary {

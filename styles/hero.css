@@ -1,11 +1,12 @@
 #hero {
+  animation: opacity 5s ease forwards;
   background-image: url(../assets/backgrounds/hero-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 
   height: 59.25rem;
-  max-width: 90rem;
+  max-width: 110rem;
   margin-inline: auto;
   text-align: center;
 
@@ -31,6 +32,16 @@
     & p {
       margin-top: 2rem;
     }
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
 
@@ -60,7 +71,5 @@
         margin-top: 1rem;
       }
     }
-
-
   }
 }
