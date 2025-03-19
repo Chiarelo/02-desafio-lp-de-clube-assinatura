@@ -1,12 +1,13 @@
 
 
 <h1 align="center">
-  <img alt="Logo" src="">
+  <img alt="Logo" src="https://github.com/user-attachments/assets/51f79a05-5fb7-4836-8a3a-a0786320551e">
 </h1>
 
 <p align="center">
   O projeto é um site desktop de clube de assinatura de livros com informações sobre o produto.
 </p>
+
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -27,14 +28,14 @@
 
 <p align="center">💻 <b>Para PC:</b></p>
 <p align="center">
-  <img alt="Projeto-img1" src="">
+  <img alt="Projeto-img1" src="https://github.com/user-attachments/assets/d6cac011-6f8d-4b44-bb4a-6de1148d11db">
   
 </p>
 
 
 <p align="center">📱 <b>Para Celular:</b></p>
 <p align="center">
-  <img alt="Projeto para Celular" src="" width="300px">
+  <img alt="Projeto para Celular" src="https://github.com/user-attachments/assets/f5ecc4e5-22bd-494d-ac84-7b55b9647c8f" width="300px">
 </p>
 
 ---
@@ -48,7 +49,7 @@ Esse projeto foi desenvolvido utilizando:
 
 ## 🔗 Link do Projeto
 
-Para acessar o projeto <a href="https://formulario-de-matricula-self.vercel.app/" target="_blank">Clique Aqui</a>.
+Para acessar o projeto <a href="" target="_blank">Clique Aqui</a>.
 
 ## 📝 Licença
 
