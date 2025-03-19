@@ -134,9 +134,9 @@
           }
 
           /* & img[src*="star"] {
-            width: 0.87881rem;
-            height: 0.87956rem;
-          } */
+              width: 0.87881rem;
+              height: 0.87956rem;
+            } */
 
           & img[src*="star"] {
             display: block;
@@ -198,26 +198,36 @@
 @media (width <= 48em) {
   #pricing-container {
     margin-top: 0rem;
+    margin-inline: auto;
+    max-width: 375px;
 
     .pricing {
+      max-width: 375px;
+
       display: flex;
       align-items: center;
-      justify-content: flex-start; /* Alinha os cards à esquerda */
-      flex-wrap: nowrap; /* Impede que os cards quebrem para a linha de baixo */
-      overflow-x: auto; /* Permite o scroll horizontal */
-      width: 100%; /* Ajusta o contêiner para a largura total */
-      height: auto; /* Ajusta a altura conforme necessário */
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      width: 100%;
+      height: auto;
       margin-inline: auto;
-      gap: 1rem; /* Ajusta o espaçamento entre os cards */
-      padding: 1rem; /* Adiciona um pequeno padding */
+      gap: 1rem;
+      padding: 1rem;
     }
 
     .pricing .card {
-      position: initial; /* Remove o position absolute */
-      width: 17rem; /* Ajusta a largura do card */
-      height: 26rem; /* Ajusta a altura conforme necessário */
-      margin-bottom: 1rem; /* Ajusta o espaçamento entre os cards */
-      flex-shrink: 0; /* Impede o encolhimento do card */
+      position: initial;
+      width: fit-content;
+      height: fit-content;
+      margin-bottom: 1rem;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .pricing .card .btn {
+      margin-top: auto; /* Alinha o botão ao final do card */
     }
   }
   .pricing:hover {
@@ -238,5 +248,9 @@
     100% {
       transform: none;
     }
+  }
+
+  .card {
+    height: 25rem;
   }
 }
