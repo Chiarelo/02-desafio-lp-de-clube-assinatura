@@ -1,11 +1,11 @@
 
 
 <h1 align="center">
-  <img alt="Logo" src="https://github.com/user-attachments/assets/3ac960f3-cdc1-4db7-9aaa-167a6d9bfda6">
+  <img alt="Logo" src="">
 </h1>
 
 <p align="center">
-  Projeto de um Formulário de Matrícula desenvolvido durante as aulas sobre Formulários na Rocketseat.
+  O projeto é um site desktop de clube de assinatura de livros com informações sobre o produto.
 </p>
 
 <p align="center">
@@ -27,14 +27,14 @@
 
 <p align="center">💻 <b>Para PC:</b></p>
 <p align="center">
-  <img alt="Projeto-img1" src="https://github.com/user-attachments/assets/1bfd18d5-4eb9-40f5-856f-3c75c46e3fe2">
+  <img alt="Projeto-img1" src="">
   
 </p>
 
 
 <p align="center">📱 <b>Para Celular:</b></p>
 <p align="center">
-  <img alt="Projeto para Celular" src="https://github.com/user-attachments/assets/6fcd4e62-9c9c-451c-a063-021d5b9aaa9a" width="300px">
+  <img alt="Projeto para Celular" src="" width="300px">
 </p>
 
 ---
